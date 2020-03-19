@@ -12,6 +12,9 @@
 		56144FD721F1D22C00866550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56144FD521F1D22C00866550 /* Main.storyboard */; };
 		56144FD921F1D23900866550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56144FD821F1D23900866550 /* Assets.xcassets */; };
 		56144FDC21F1D23900866550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56144FDA21F1D23900866550 /* LaunchScreen.storyboard */; };
+		56144FE521F1D25600866550 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56144FE321F1D25600866550 /* CardViewController.swift */; };
+		56144FE621F1D25600866550 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56144FE421F1D25600866550 /* CardViewController.xib */; };
+		563FF3B921F88D9D00123285 /* CardViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FF3B821F88D9D00123285 /* CardViewHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		56144FD821F1D23900866550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56144FDB21F1D23900866550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56144FDD21F1D23900866550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56144FE321F1D25600866550 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		56144FE421F1D25600866550 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		563FF3B821F88D9D00123285 /* CardViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		56144FD021F1D22C00866550 /* CardView */ = {
 			isa = PBXGroup;
 			children = (
+				56144FE321F1D25600866550 /* CardViewController.swift */,
+				56144FE421F1D25600866550 /* CardViewController.xib */,
 				56144FD121F1D22C00866550 /* AppDelegate.swift */,
 				56144FD321F1D22C00866550 /* ViewController.swift */,
 				56144FD521F1D22C00866550 /* Main.storyboard */,
 				56144FD821F1D23900866550 /* Assets.xcassets */,
 				56144FDA21F1D23900866550 /* LaunchScreen.storyboard */,
 				56144FDD21F1D23900866550 /* Info.plist */,
+				563FF3B821F88D9D00123285 /* CardViewHandler.swift */,
 			);
 			path = CardView;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56144FE621F1D25600866550 /* CardViewController.xib in Resources */,
 				56144FDC21F1D23900866550 /* LaunchScreen.storyboard in Resources */,
 				56144FD921F1D23900866550 /* Assets.xcassets in Resources */,
 				56144FD721F1D22C00866550 /* Main.storyboard in Resources */,
@@ -137,6 +147,8 @@
 			files = (
 				56144FD421F1D22C00866550 /* ViewController.swift in Sources */,
 				56144FD221F1D22C00866550 /* AppDelegate.swift in Sources */,
+				56144FE521F1D25600866550 /* CardViewController.swift in Sources */,
+				563FF3B921F88D9D00123285 /* CardViewHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +293,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = CardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc.CardView;
+				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +312,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = CardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc.CardView;
+				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
