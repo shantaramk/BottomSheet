@@ -34,27 +34,3 @@ private extension CardViewHandler {
     }
 }
 
-// MARK: - UITouch Delegate
-
-extension CardViewHandler {
-    
-   
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let touch = touches.first {
-            let currentPoint = touch.location(in: self.parentView?.view)
-            updateViewAppearance(Int(currentPoint.y))
-        }
-    }
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let touch = touches.first {
-            let currentPoint = touch.location(in: self.parentView?.view)
-            updateViewAppearance(Int(currentPoint.y))
-        }
-    }
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let touch = touches.first {
-            let currentPoint = touch.location(in: self.parentView?.view)
-            updateViewAppearance(Int(currentPoint.y))
-        }
-    }
-}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CE4C05224F1859E00588E66 /* BottomSheetAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4C05124F1859E00588E66 /* BottomSheetAdaptor.swift */; };
+		4CE4C05424F187C300588E66 /* BottomSheetEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4C05324F187C300588E66 /* BottomSheetEventHandler.swift */; };
 		56144FD221F1D22C00866550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56144FD121F1D22C00866550 /* AppDelegate.swift */; };
 		56144FD421F1D22C00866550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56144FD321F1D22C00866550 /* ViewController.swift */; };
 		56144FD721F1D22C00866550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56144FD521F1D22C00866550 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CE4C05124F1859E00588E66 /* BottomSheetAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetAdaptor.swift; sourceTree = "<group>"; };
+		4CE4C05324F187C300588E66 /* BottomSheetEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetEventHandler.swift; sourceTree = "<group>"; };
 		56144FCE21F1D22C00866550 /* CardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56144FD121F1D22C00866550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56144FD321F1D22C00866550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				56144FDA21F1D23900866550 /* LaunchScreen.storyboard */,
 				56144FDD21F1D23900866550 /* Info.plist */,
 				563FF3B821F88D9D00123285 /* CardViewHandler.swift */,
+				4CE4C05124F1859E00588E66 /* BottomSheetAdaptor.swift */,
+				4CE4C05324F187C300588E66 /* BottomSheetEventHandler.swift */,
 			);
 			path = CardView;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56144FD421F1D22C00866550 /* ViewController.swift in Sources */,
+				4CE4C05224F1859E00588E66 /* BottomSheetAdaptor.swift in Sources */,
+				4CE4C05424F187C300588E66 /* BottomSheetEventHandler.swift in Sources */,
 				56144FD221F1D22C00866550 /* AppDelegate.swift in Sources */,
 				56144FE521F1D25600866550 /* CardViewController.swift in Sources */,
 				563FF3B921F88D9D00123285 /* CardViewHandler.swift in Sources */,
